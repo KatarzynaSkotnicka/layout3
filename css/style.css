@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin-ext');
+
+/*grid */
+
+.row:before, 
+.row:after {
+	content:"";
+	display: table;
+	clear:both;
+ }
+ 
+
+[class*="col-"] {
+	float: left;
+	min-height: 1px;
+	padding: 15px;
+	text-align: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+
+.col-sm-1 {width: 8.33%;}
+.col-sm-2 {width: 16.66%;}
+.col-sm-3 {width: 25%;}
+.col-sm-4 {width: 33.33%;}
+.col-sm-5 {width: 41.66%;}
+.col-sm-6 {width: 50%;}
+.col-sm-7 {width: 58.33%;}
+.col-sm-8 {width: 66.66%;}
+.col-sm-9 {width: 75%;}
+.col-sm-10 {width: 83.33%;}
+.col-sm-11 {width: 91.66%;}
+.col-sm-12 {width: 100%;}
+
+.col-xs-1 {width: 8.33%;}
+.col-xs-2 {width: 16.66%;}
+.col-xs-3 {width: 25%;}
+.col-xs-4 {width: 33.33%;}
+.col-xs-5 {width: 41.66%;}
+.col-xs-6 {width: 50%;}
+.col-xs-7 {width: 58.33%;}
+.col-xs-8 {width: 66.66%;}
+.col-xs-9 {width: 75%;}
+.col-xs-10 {width: 83.33%;}
+.col-xs-11 {width: 91.66%;}
+.col-xs-12 {width: 100%;}
+
+* {
+box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #959595 ;
+	margin: 0;
+	line-height: 1.8em;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.hero1 {
+	background-image: url(../images/hero1.JPG);
+	color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+
+.smartphone {
+	position: absolute;
+	height: 500px;
+}
+
+h1, h2, h3 {
+	font-weight: 300;
+}
+
+h4 {
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 1em;
+}
+
+h2 {
+	color: black;
+	font-size: 35px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+.p-bold {
+	font-weight: 700;
+}
+/*header*/
+
+/*fields*/
+
+[class*="field-"] {
+	font-size: 13px;
+	color: #fff;
+	padding: 40px;
+	height: 278px;
+}
+
+.field-1 {
+	background-color: #f5989d;
+}
+
+.field-2 {
+	background-color: #5b6690;
+}
+
+.field-3 {
+	background-image: url(../images/boxbackground.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.field-4 {
+	background-color: #bd8cbf;
+}
+
+.field-5 {
+	background-image: url(../images/boxbackground.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.field-6 {
+	background-color: #82ca9c;
+}
+
+.field-7 {
+	background-color: #82ca9c;
+	background-image: url(../images/boxbackground.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.hero2 {
+	background-image: url(../images/hero2.JPG);
+	height: 860px;
+	color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.reasons {
+	background-color: #82CA9C;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.reasons h2 {
+	color: #fff;
+}
+
+.soloAndPlan {
+	background-color: #f6f7fa;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #8297a7;
+}
+
+.team-plan {
+	background-color: #fff;
+	padding: 50px;
+	box-shadow: 0px 0px 20px 0px #E3E4E7;
+}
+
+.solo {
+	padding: 50px;
+}
+
+.buyNow {
+	background-color: #82CA9C;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: none;
+	padding: 23px 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	border: none;
+	font-weight: 700;
+}
+
+.smallButton {
+	color: #fff;
+	border-radius: 3px;
+	box-shadow: none;
+	padding: 7px 10px;
+	text-transform: uppercase;
+	border: none;
+	font-weight: 700;
+	font-size: 11px;
+}
+
+.small2 {
+	background-color: #bd8cbf;
+}
+
+button {
+	cursor: pointer;
+}
+
+.fa {
+	color: #c5c5c5;
+	padding: 10px;
+	font-weight: 
+}
+
+footer {
+	background-color: #192431;
+	color: #fff;
+	font-size: 13px;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer small {
+	color: #57697f;
+}
+
+input {
+	width: 80%;
+	height: 50px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border: none;
+	padding: 10px;
+}
+
+.check {
+	background-color: #82ca9c;
+	width: 10%;
+	display: inline-block;
+	height: 50px;
+}
+
+.fa-check {
+	color: white;
+}
+
