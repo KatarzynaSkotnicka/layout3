@@ -133,7 +133,7 @@ h3 {
 	font-size: 13px;
 	color: #fff;
 	padding: 40px;
-	height: 278px;
+	min-height: 375px;
 }
 
 .field-1 {
@@ -172,6 +172,20 @@ h3 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.p-bold {
+	float: left;
+	cursor: pointer;
+}
+
+.fa-long-arrow-right {
+	color: white;
+	position: relative;
+	top: 13px;
+	left: 11px;
+	padding: 0;
+	cursor: pointer;
 }
 
 .hero2 {
@@ -243,9 +257,12 @@ button {
 }
 
 .fa {
+	color: white;
+}
+
+.fa-apple .fa-window {
 	color: #c5c5c5;
 	padding: 10px;
-	font-weight: 
 }
 
 footer {
@@ -279,7 +296,4 @@ input {
 	height: 50px;
 }
 
-.fa-check {
-	color: white;
-}
 
